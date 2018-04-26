@@ -11,3 +11,7 @@ end
 def current_player(count)
   return (count % 2 == 0) ? "X" : "O"
 end
+
+board = ["X", " ", "O"]
+count = turn_count(board)
+puts count
