@@ -13,4 +13,5 @@ def current_player(count)
     return "X"
   else
     return "O"
+  end
 end
