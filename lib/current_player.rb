@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def current_player(count)
-  return (count % 2 == 0 || count == 0) ? "X" : "O"
+  return ((count % 2) == 0 || count == 0) ? "X" : "O"
 end
